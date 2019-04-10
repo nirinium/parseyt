@@ -51,7 +51,7 @@ def crawl(url):
         exit(1)
 
 if len(sys.argv) < 2 or len(sys.argv) > 2:
-    print('USAGE: python3 youParse.py YOUTUBEurl > log.txt')
+    print('USAGE: python3 youParse.py ''YOUTUBEurl'' > log.txt')
     exit(1)
 
 else:
