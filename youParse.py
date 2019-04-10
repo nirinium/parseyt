@@ -42,7 +42,7 @@ def crawl(url):
 
         i = 0
         while i < len(all_url):
-            sys.stdout.write(all_url[i] + ' | ')
+            sys.stdout.write(all_url[i] + '\n')
             time.sleep(0.04)
             i = i + 1
 
